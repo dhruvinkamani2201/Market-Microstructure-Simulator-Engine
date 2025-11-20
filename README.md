@@ -8,3 +8,19 @@ Lightweight market microstructure simulator: L2 order book, matching engine, tic
 ```bash
 pip install -r requirements.txt
 ```
+2. Run demo:
+```bash
+python run.py demo
+```
+
+3. Record live data (Binance US):
+```bash
+python run.py recorder --symbol BTCUSDT --stream trade --duration 60 --out data/binance.jsonl
+```
+
+4. Run tests:
+```bash
+python run.py test
+# or
+pytest -q
+```
