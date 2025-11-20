@@ -21,6 +21,10 @@ python run.py recorder --symbol BTCUSDT --stream trade --duration 60 --out data/
 4. Run tests:
 ```bash
 python run.py test
+```
+</br>
 # or
+</br>
+```bash
 pytest -q
 ```
