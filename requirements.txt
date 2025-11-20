@@ -1,0 +1,5 @@
+numpy
+pytest
+websockets
+pytest-asyncio
+sortedcontainers
