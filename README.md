@@ -17,12 +17,3 @@ python run.py demo
 ```bash
 python run.py recorder --symbol BTCUSDT --stream trade --duration 60 --out data/binance.jsonl
 ```
-
-4. Run tests:
-```bash
-python run.py test
-```
-or
-```bash
-pytest -q
-```
